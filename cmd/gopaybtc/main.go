@@ -1,1 +1,1 @@
-package gopaybtc
+package main
