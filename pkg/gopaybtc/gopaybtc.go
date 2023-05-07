@@ -11,12 +11,12 @@ type PaymentGateway struct {
 }
 
 // NewPaymentGateway creates a new payment gateway object
-func NewPaymentGateway() *PaymentGateway {
-	//pg := &PaymentGateway{}
-	//pg.Router = gin.Default()
-	//pg.setRoutes()
-	//return pg
-}
+//func NewPaymentGateway() *PaymentGateway {
+//	//pg := &PaymentGateway{}
+//	//pg.Router = gin.Default()
+//	//pg.setRoutes()
+//	//return pg
+//}
 
 // setRoutes sets up the routes for the payment gateway
 func (pg *PaymentGateway) setRoutes() {
