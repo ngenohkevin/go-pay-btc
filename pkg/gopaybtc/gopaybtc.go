@@ -20,8 +20,8 @@ func NewPaymentGateway() *PaymentGateway {
 
 // setRoutes sets up the routes for the payment gateway
 func (pg *PaymentGateway) setRoutes() {
-	pg.Router.POST("/payment", pg.handlePayment)
-	pg.Router.GET("/status/:id", pg.handleStatus)
+	//pg.Router.POST("/payment", pg.handlePayment)
+	//pg.Router.GET("/status/:id", pg.handleStatus)
 }
 
 // handlePayment handles the payment request
